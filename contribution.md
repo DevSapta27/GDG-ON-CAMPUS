@@ -51,14 +51,14 @@ git push origin your-feature-branch
 
 Step 7: Submit a Pull Request
 
-1.Go to the original repository on GitHub.
-2.Click the "New Pull Request" button.
-3.Select the branch you want to merge into the base repository.
-4.Provide a meaningful description of the changes made.
+Go to the original repository on GitHub.
+Click the "New Pull Request" button.
+Select the branch you want to merge into the base repository.
+Provide a meaningful description of the changes made.
 
 How to Choose an Issue
 To contribute:
-1.Browse through the Issues section.
-2.Look for issues labeled Hacktoberfest, good first issue, or help wanted.
-3.Comment on the issue to let others know you're working on it.
-4.Wait for a maintainer to assign the issue to you before starting work.
+Browse through the Issues section.
+Look for issues labeled Hacktoberfest, good first issue, or help wanted.
+Comment on the issue to let others know you're working on it.
+Wait for a maintainer to assign the issue to you before starting work.
