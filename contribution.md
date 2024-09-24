@@ -18,7 +18,7 @@ Before you begin, ensure you have the following installed:
 ### Step 2: Clone Your Fork
 Clone your forked repository to your local machine:
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/DevSapta27/GDG-ON-CAMPUS.git
 ```
 Move into the directory:
 
