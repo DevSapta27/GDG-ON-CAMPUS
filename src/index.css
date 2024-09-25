@@ -14,10 +14,10 @@ body {
 }
 
 .Logo {
-  width : 75px;
+  width : auto;
   height: 50px;
   margin-left: -50px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .hero-image img { 
