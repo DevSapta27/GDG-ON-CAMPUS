@@ -29,7 +29,7 @@ const WhyChooseData = [
     title: "Collab in Projects ",
     desc: "Collabing in projects will help you to gain and improve your Tech Skills",
     link: "/",
-    icon: <FaCodeFork/>,
+    icon: <FaCodeFork />,
     bgColor: "#fa6400",
     delay: 0.9,
   },
@@ -38,11 +38,12 @@ const WhyChooseData = [
     title: "Avail Resources  and Content",
     desc: " Download and avail all Tech Related Content in one place",
     link: "/",
-    icon: <IoCodeDownload/>,
+    icon: <IoCodeDownload />,
     bgColor: "#73bc00",
     delay: 0.9,
   },
 ];
+
 const WhyChooseUs = () => {
   return (
     <div className="bg-[#f9fafc]">
@@ -61,15 +62,16 @@ const WhyChooseUs = () => {
           {WhyChooseData.map((item) => {
             return (
               <motion.div
+                key={item.id} // added key for map loop
                 variants={SlideLeft(item.delay)}
                 initial="hidden"
                 whileInView={"visible"}
-                className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)]"
+                className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)] hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 ease-in-out"
               >
                 {/* icon section */}
                 <div
                   style={{ backgroundColor: item.bgColor }}
-                  className="w-10 h-10 rounded-lg flex justify-center items-center text-white"
+                  className="w-10 h-10 rounded-lg flex justify-center items-center text-white transition-all duration-300 ease-in-out hover:scale-110"
                 >
                   <div className="text-2xl">{item.icon}</div>
                 </div>
