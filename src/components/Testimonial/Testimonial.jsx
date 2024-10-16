@@ -106,7 +106,7 @@ const Testimonial = () => {
             {TestimonialsData.map((item) => {
               return (
                 <div key={item.id}>
-                  <div className="flex flex-col gap-4 p-8 shadow-lg mx-4 rounded-xl bg-secondary/10">
+                  <div className="flex flex-col gap-4 p-8 shadow-lg mx-4 rounded-xl bg-secondary/10 testanomials-hover">
                     {/* upper section */}
                     <div className="flex justify-start items-center gap-5">
                       <img
