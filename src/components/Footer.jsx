@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdComputer } from "react-icons/md";
-import Logo from '../../assets/gdscLOGO.jpeg';
+import Logo from '../assets/gdscLOGO.jpeg';
 
 
 
