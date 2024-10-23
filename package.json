@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^11.0.1",
     "framer-motion": "^11.5.4",
     "git": "^0.1.5",
     "react": "^18.3.1",

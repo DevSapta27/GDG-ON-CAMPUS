@@ -1,9 +1,9 @@
 import React from "react";
-import { NavbarMenu } from "../../mockData/data.js";
+import { NavbarMenu } from "../mockData/data.js";
 import { MdComputer, MdMenu } from "react-icons/md";
 import { motion } from "framer-motion";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
-import Logo from '../../assets/gdscLOGO.jpeg';
+import Logo from '../assets/gdscLOGO.jpeg';
 
 
 const Navbar = () => {

@@ -4,7 +4,7 @@ import { IoIosPeople } from "react-icons/io";
 import { FaCodeFork } from "react-icons/fa6";
 import { IoCodeDownload } from "react-icons/io5";
 import { motion } from "framer-motion";
-import { SlideLeft } from "../../utility/animation";
+import { SlideLeft } from "../utility/animation";
 
 const WhyChooseData = [
   {

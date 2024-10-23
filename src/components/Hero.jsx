@@ -1,8 +1,8 @@
 import React from "react";
-import HeroImg from "../../assets/herofinal.jpg";
+import HeroImg from "../assets/herofinal.jpg";
 import { FaPlay } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { SlideRight } from "../../utility/animation";
+import { SlideRight } from "../utility/animation";
 
 const Hero = () => {
   return (

@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-import User1 from '../../assets/Anuska.jpg';
-import  User2 from '../../assets/Saptarshi.jpg';
-import User3 from '../../assets/Anirban.png';
-import User4 from '../../assets/Priyobrata.png';
-import User5 from '../../assets/Sujay Dey.jpg'
+import User1 from '../assets/Anuska.jpg';
+import  User2 from '../assets/Saptarshi.jpg';
+import User3 from '../assets/Anirban.png';
+import User4 from '../assets/Priyobrata.png';
+import User5 from '../assets/Sujay Dey.jpg'
 import { desc } from "framer-motion/client";
 
 const TestimonialsData = [
