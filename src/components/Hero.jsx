@@ -52,11 +52,8 @@ const Hero = () => {
           </div>
         </div>
         {/* Hero image */}
-        <div className="flex justify-center items-center hero-image">
-          <motion.img
-            initial={{ opacity: 0, x: 200 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ type: "spring", stiffness: 100, delay:0.8 }}
+        <div className="flex justify-center items-center hero-image hero-hover">
+          <img
             src={HeroImg}
             alt=""
            
