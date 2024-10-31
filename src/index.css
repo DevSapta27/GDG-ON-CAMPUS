@@ -41,3 +41,9 @@ body {
 .testanomials-hover{
   transition: all 0.5s ease-in;
 }
+.card-hover{
+  transition: all 0.5s ease-in;
+}
+.card-hover:hover{
+  transform: scale(1.5);
+}

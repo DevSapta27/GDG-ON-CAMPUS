@@ -61,12 +61,9 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {WhyChooseData.map((item) => {
             return (
-              <motion.div
-                key={item.id} // added key for map loop
-                variants={SlideLeft(item.delay)}
-                initial="hidden"
-                whileInView={"visible"}
-                className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)] hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 ease-in-out"
+              <div
+              
+                className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)] hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 ease-in-out card-hover"
               >
                 {/* icon section */}
                 <div
@@ -77,7 +74,7 @@ const WhyChooseUs = () => {
                 </div>
                 <p className="font-semibold">{item.title}</p>
                 <p className="text-sm text-gray-500">{item.desc}</p>
-              </motion.div>
+              </div>
             );
           })}
         </div>
